@@ -1,6 +1,6 @@
-Kotlin Http Client Fuel Demo
-============================
+Kotlin Fuel Post Form Demo
+==========================
 
-How to send http request with [Fuel](https://github.com/kittinunf/Fuel).
+Post a POST request with form data, with [Fuel](https://github.com/kittinunf/Fuel).
 
 Run `Hello.kt` in your IDE.
