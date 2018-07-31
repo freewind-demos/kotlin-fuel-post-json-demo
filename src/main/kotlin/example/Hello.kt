@@ -7,5 +7,12 @@ fun main(args: Array<String>) {
             .body("""{"foo": "bar"}""")
             .header("Content-Type" to "application/json")
             .responseString()
-    println(result)
+    println("------------- request ---------------")
+    println(result.first)
+
+    println("--------------- response -----------------")
+    println(result.second)
+
+    println("--------------- third ------------------")
+    println(result.third)
 }
